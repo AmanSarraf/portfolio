@@ -5,15 +5,15 @@ import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
+// import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
-const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
+// const addressSection = contactPageData.addressSection;
+// const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   render() {
@@ -85,49 +85,44 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
+
           <Fade bottom duration={1000} distance="40px">
-            <div className="address-heading-div">
-              <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <AddressImg theme={theme} />
-              </div>
-              <div className="address-heading-text-div">
-                <h1
-                  className="address-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {addressSection["title"]}
-                </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {addressSection["subtitle"]}
-                </p>
-                <h1
-                  className="address-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {phoneSection["title"]}
-                </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {phoneSection["subtitle"]}
-                </p>
-                <div className="address-btn-div">
-                  <Button
-                    text="Visit on Google Maps"
-                    newTab={true}
-                    href={addressSection.location_map_link}
-                    theme={theme}
-                  />
+            <div className="contact-form-div">
+              <h1
+                className="contact-form-heading"
+                style={{ color: theme.text }}
+              >
+                Contact Me
+              </h1>
+
+              <form
+                className="contact-form"
+                action="https://formspree.io/f/mknadzae"
+                method="POST"
+                onSubmit={this.handleSubmit}
+              >
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Full Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email Address"
+                  required
+                />
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+
+                <div className="sendMessage-btn-div">
+                  <Button type="submit" text="Send message" theme={theme} />
                 </div>
-              </div>
+              </form>
             </div>
           </Fade>
         </div>
@@ -139,3 +134,49 @@ class Contact extends Component {
 }
 
 export default Contact;
+
+// <Fade bottom duration={1000} distance="40px">
+// <div className="address-heading-div">
+//   <div className="contact-heading-img-div">
+//     {/* <img
+//           src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
+//           alt=""
+//         /> */}
+//     <AddressImg theme={theme} />
+//   </div>
+//   <div className="address-heading-text-div">
+//     <h1
+//       className="address-heading-text"
+//       style={{ color: theme.text }}
+//     >
+//       {addressSection["title"]}
+//     </h1>
+//     <p
+//       className="contact-header-detail-text subTitle"
+//       style={{ color: theme.secondaryText }}
+//     >
+//       {addressSection["subtitle"]}
+//     </p>
+//     <h1
+//       className="address-heading-text"
+//       style={{ color: theme.text }}
+//     >
+//       {phoneSection["title"]}
+//     </h1>
+//     <p
+//       className="contact-header-detail-text subTitle"
+//       style={{ color: theme.secondaryText }}
+//     >
+//       {phoneSection["subtitle"]}
+//     </p>
+//     <div className="address-btn-div">
+//       <Button
+//         text="Visit on Google Maps"
+//         newTab={true}
+//         href={addressSection.location_map_link}
+//         theme={theme}
+//       />
+//     </div>
+//   </div>
+// </div>
+// </Fade>

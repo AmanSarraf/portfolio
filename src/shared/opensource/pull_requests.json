@@ -2,56 +2,6 @@
   "closed": 12,
   "data": [
     {
-      "id": "PR_kwDOI8Gq7s5JrsGz",
-      "title": "Added some random gibberish",
-      "url": "https://github.com/AmanSarraf/test/pull/2",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/90839355?u=2d37e9951b1954c2899d53c89ebd82c1d6224138&v=4",
-        "url": "https://github.com/AmanSarraf",
-        "login": "AmanSarraf"
-      },
-      "createdAt": "2023-02-10T07:11:29Z",
-      "number": 2,
-      "changedFiles": 1,
-      "additions": 1,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "test",
-        "url": "https://github.com/AmanSarraf/test",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/90839355?u=2d37e9951b1954c2899d53c89ebd82c1d6224138&v=4",
-          "login": "AmanSarraf",
-          "url": "https://github.com/AmanSarraf"
-        }
-      }
-    },
-    {
-      "id": "PR_kwDOI8Gq7s5Jrhci",
-      "title": "initial commit to br1",
-      "url": "https://github.com/AmanSarraf/test/pull/1",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/90839355?u=2d37e9951b1954c2899d53c89ebd82c1d6224138&v=4",
-        "url": "https://github.com/AmanSarraf",
-        "login": "AmanSarraf"
-      },
-      "createdAt": "2023-02-10T06:25:19Z",
-      "number": 1,
-      "changedFiles": 1,
-      "additions": 1,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "test",
-        "url": "https://github.com/AmanSarraf/test",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/90839355?u=2d37e9951b1954c2899d53c89ebd82c1d6224138&v=4",
-          "login": "AmanSarraf",
-          "url": "https://github.com/AmanSarraf"
-        }
-      }
-    },
-    {
       "id": "PR_kwDOFWE4485GazYV",
       "title": "Community Meeting notification workflow",
       "url": "https://github.com/shipwright-io/community/pull/120",
@@ -1009,56 +959,6 @@
       }
     },
     {
-      "id": "PR_kwDOGMDc1M4tZxDM",
-      "title": "Number_guessing_game",
-      "url": "https://github.com/AmanSarraf/c-program-example/pull/1",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/90839355?u=2d37e9951b1954c2899d53c89ebd82c1d6224138&v=4",
-        "url": "https://github.com/AmanSarraf",
-        "login": "AmanSarraf"
-      },
-      "createdAt": "2021-10-19T19:31:52Z",
-      "number": 1,
-      "changedFiles": 1,
-      "additions": 42,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "c-program-example",
-        "url": "https://github.com/AmanSarraf/c-program-example",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/90839355?u=2d37e9951b1954c2899d53c89ebd82c1d6224138&v=4",
-          "login": "AmanSarraf",
-          "url": "https://github.com/AmanSarraf"
-        }
-      }
-    },
-    {
-      "id": "PR_kwDOGPpl3M4tZwVJ",
-      "title": "Number guessing game",
-      "url": "https://github.com/AmanSarraf/HacktoberFest-1/pull/1",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/90839355?u=2d37e9951b1954c2899d53c89ebd82c1d6224138&v=4",
-        "url": "https://github.com/AmanSarraf",
-        "login": "AmanSarraf"
-      },
-      "createdAt": "2021-10-19T19:27:10Z",
-      "number": 1,
-      "changedFiles": 1,
-      "additions": 42,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "HacktoberFest-1",
-        "url": "https://github.com/AmanSarraf/HacktoberFest-1",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/90839355?u=2d37e9951b1954c2899d53c89ebd82c1d6224138&v=4",
-          "login": "AmanSarraf",
-          "url": "https://github.com/AmanSarraf"
-        }
-      }
-    },
-    {
       "id": "PR_kwDOCyvTes4tZvNE",
       "title": "Added email signature for Aman Sarraf",
       "url": "https://github.com/vinitshahdeo/Email-Signature-Template/pull/212",
@@ -1214,7 +1114,7 @@
       }
     }
   ],
-  "merged": 30,
+  "merged": 26,
   "open": 10,
-  "totalCount": 52
+  "totalCount": 48
 }
