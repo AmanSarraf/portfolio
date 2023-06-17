@@ -97,7 +97,8 @@ class Contact extends Component {
 
               <form
                 className="contact-form"
-                action="https://formspree.io/f/mknadzae"
+                // action="https://formspree.io/f/mknadzae"
+                action="https://formsubmit.co/6a9c5f635c8610c864aa2b3aa5bebc1a"
                 method="POST"
                 onSubmit={this.handleSubmit}
               >
@@ -118,10 +119,14 @@ class Contact extends Component {
                   placeholder="Your Message"
                   required
                 ></textarea>
-
-                <div className="sendMessage-btn-div">
-                  <Button type="submit" text="Send message" theme={theme} />
+                <div>
+                  <button type="submit" className="contact-form-button">
+                    Send Message
+                  </button>
                 </div>
+                {/* <div className="sendMessage-btn-div">
+                  <Button type="submit" text="Send message" theme={theme} />
+                </div> */}
               </form>
             </div>
           </Fade>

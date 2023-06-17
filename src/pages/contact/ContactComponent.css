@@ -256,7 +256,34 @@
   font-family: Google Sans Medium;
   resize: none;
 }
+
+.contact-form-button {
+  width: 50%;
+  /* display: flex; */
+
+  justify-content: center;
+  color: #fffefd;
+  background-color: #5d2a42;
+  border: #5d2a42;
+  border: 1px;
+  height: 49.77px;
+  border-radius: 07.12846546px;
+  font-family: "Google Sans Regular";
+  font-size: 19.33px;
+  letter-spacing: 1px;
+}
+.contact-form-button:hover {
+  color: #5d2a42;
+  background-color: #fffefd;
+  border: solid 1px #5d2a42;
+  transition: background-color 0.3s ease;
+}
+
+/* .contact-form-button{
+  
+} */
 /* 
+
 .contact-form-button {
   padding: 10px 20px;
   font-family: Google Sans Medium;
