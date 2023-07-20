@@ -1,6 +1,46 @@
 {
-  "closed": 14,
+  "closed": 16,
   "data": [
+    {
+      "id": "I_kwDODqGIis5pCHU5",
+      "closed": true,
+      "title": "Error while deploying the app",
+      "createdAt": "2023-06-18T07:39:17Z",
+      "url": "https://github.com/ashutosh1919/masterPortfolio/issues/304",
+      "number": 304,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "masterPortfolio",
+        "url": "https://github.com/ashutosh1919/masterPortfolio",
+        "owner": {
+          "login": "ashutosh1919",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
+          "url": "https://github.com/ashutosh1919"
+        }
+      }
+    },
+    {
+      "id": "I_kwDODqGIis5pCE0e",
+      "closed": true,
+      "title": "Error while running Docker image  : react-scripts --openssl-legacy-provider start",
+      "createdAt": "2023-06-18T07:05:32Z",
+      "url": "https://github.com/ashutosh1919/masterPortfolio/issues/303",
+      "number": 303,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "masterPortfolio",
+        "url": "https://github.com/ashutosh1919/masterPortfolio",
+        "owner": {
+          "login": "ashutosh1919",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
+          "url": "https://github.com/ashutosh1919"
+        }
+      }
+    },
     {
       "id": "I_kwDODqGIis5o7b9e",
       "closed": true,
@@ -538,5 +578,5 @@
     }
   ],
   "open": 8,
-  "totalCount": 22
+  "totalCount": 24
 }

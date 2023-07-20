@@ -1,6 +1,27 @@
 {
-  "closed": 12,
+  "closed": 13,
   "data": [
+    {
+      "id": "PR_kwDOAxF--s5Vw-Cw",
+      "title": "[hi] added language specific localisation guide for hi-hindi",
+      "url": "https://github.com/kubernetes/website/pull/42065",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-07-18T09:29:51Z",
+      "number": 42065,
+      "changedFiles": 1,
+      "additions": 162,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "website",
+        "url": "https://github.com/kubernetes/website",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
+          "login": "kubernetes",
+          "url": "https://github.com/kubernetes"
+        }
+      }
+    },
     {
       "id": "PR_kwDOFWE4485GazYV",
       "title": "Community Meeting notification workflow",
@@ -74,7 +95,7 @@
       "url": "https://github.com/csdojo-defaang/the-dojo-way/pull/78",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1811651?u=4c8a33d393878a645f82698a8d141f98ce41d668&v=4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1811651?u=8fbc7bafa5bc3eed1f499468ef9aa794c349ca47&v=4",
         "url": "https://github.com/ykdojo",
         "login": "ykdojo"
       },
@@ -97,7 +118,7 @@
       "id": "PR_kwDOAxF--s49gpqt",
       "title": "[hi] Added Hindi localisation style guide",
       "url": "https://github.com/kubernetes/website/pull/36133",
-      "state": "OPEN",
+      "state": "CLOSED",
       "mergedBy": null,
       "createdAt": "2022-08-21T05:35:55Z",
       "number": 36133,
@@ -1116,5 +1137,5 @@
   ],
   "merged": 26,
   "open": 10,
-  "totalCount": 48
+  "totalCount": 49
 }

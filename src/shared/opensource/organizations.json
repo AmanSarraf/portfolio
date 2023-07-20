@@ -11,23 +11,8 @@
       "__typename": "Organization"
     },
     {
-      "login": "EddieHubCommunity",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66388388?v=4",
-      "__typename": "Organization"
-    },
-    {
       "login": "shipwright-io",
       "avatarUrl": "https://avatars.githubusercontent.com/u/69635467?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "kubeshop",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/82541796?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "triggermesh",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39915115?v=4",
       "__typename": "Organization"
     },
     {
